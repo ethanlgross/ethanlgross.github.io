@@ -139,47 +139,27 @@ picture img {width: 100%;
 #content img {width: 75%
 }
 
-#footer {background: black;
+#footer {background-color: var(--color-dark); color: var(--color-important);
 }
 
-#page {
-	padding-left: 5.641025641%;
-	padding-right: 5.641025641%;
-	margin: 0 auto;
-  background-color: var(--color-light);
-  color: var(--color-dark);
+#page {padding-left: 5.5%; padding-right: 5.5%; margin: 0 auto; background-color: var(--color-light); color: var(--color-dark);
 }
-#header {
-	text-transform: uppercase;
-  color: var(--color-important)
-	}
 
-#navigation {
-	position: fixed;
-	width: 100%;
-	padding: 0;
-	top: 0;
-	left: 0;
-	background-color: var(--color-important);
-	z-index: 100;
-	font-family: "Georgia", serif;
-	font-size: 1.25em;
-	text-transform: uppercase;
-	color: var(--color-light);
+#header {text-transform: uppercase; color: var(--color-important)
 }
-#footer {
-	font-size: 0.5em;
-	line-height: 1em;
-}
-#home-content {
-	position: relative;
-	width: 80%;
-	}
 
-.navigation {
-	line-height: 1;
-	padding: 0;
+#navigation {position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: var(--color-important); z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: var(--color-light);
 }
+
+#footer {font-size: 0.5em; line-height: 1em;
+}
+
+#home-content {position: relative; width: 80%;
+}
+
+.navigation {line-height: 1; padding: 0;
+}
+
 .navigation li {
 	line-height: 1;
 	display: inline-block;
