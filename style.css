@@ -142,7 +142,7 @@ picture img {width: 100%;
 #navigation {position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: var(--color-important); z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: var(--color-light);
 }
 
-#content img {width: 75%
+#content img {width: 75%;
 }
 
 #page {padding-left: 5.5%; padding-right: 5.5%; margin: 0 auto; background-color: var(--color-light); color: var(--color-dark);
@@ -243,7 +243,7 @@ picture img {width: 100%;
 #content img {width: 75%
 }
 
-#footer {color: var(--color-important); font-size: 0.5em; line-height: 1em;
+#footer {color: var(--color-important); font-size: 0.5em; line-height: 0.5em; position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: var(--color-important); z-index: 100; font-family: "Verdana", sans-serif; text-transform: uppercase;
 }
 
 /* End IDs and Classes */
