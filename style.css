@@ -117,7 +117,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 
 /* Begin IDs and Classes */
 
-#header {text-transform: uppercase; color: #333333;
+#header {color: #333333;
 }
 
 #content img {width: 75%;
@@ -132,7 +132,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #navigation {position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
-.navigation {line-height: 1; display: block; padding: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
+.navigation {line-height: 1; display: block; padding: 0; background-color: #a65d03; z-index: 100; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
 .navigation li {line-height: 1; display: inline-block; padding: 0.5em;
@@ -147,15 +147,20 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 }
 
-#navigation.accessibility {position: absolute; left: -10000px;
-}
-
 #content img {width: 75%
 }
 
 #footer {color: #a65d03; display: block; font-size: 0.5em; line-height: 0.5em; position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: #333333; z-index: 100; font-family: "Verdana", sans-serif; text-transform: uppercase;
 }
 
+#footer li {line-height: 1; display: inline-block; padding: 0.5em;
+}
+
+#footer li a {display: inline-block; padding: 1.2em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+}
+
+#navigation.accessibility {position: absolute; left: -10000px;
+}
 /* End IDs and Classes */
 
 /* Begin Accessibility CSS */
