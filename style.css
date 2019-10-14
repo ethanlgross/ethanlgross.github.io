@@ -165,7 +165,7 @@ picture img {width: 100%;
 	font-family: "Georgia", serif;
 	font-size: 1.25em;
 	text-transform: uppercase;
-	color: var(--color-important)
+	color: var(--color-light)
 }
 #footer {
 	font-size: 0.5em;
