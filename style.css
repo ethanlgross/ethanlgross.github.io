@@ -150,13 +150,14 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 #content img {width: 75%
 }
 
-#footer {color: #a65d03; display: block; font-size: 0.5em; line-height: 0.5em; position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: #333333; z-index: 100; font-family: "Verdana", sans-serif; text-transform: uppercase;
+#footer {color: #a65d03; display: block; font-size: 0.5em; line-height: 0.5em; width: 100%; position: absolute;
+top: 0; bottom: 80%; padding-top: .75em; background-color: #333333; z-index: 100; font-family: "Verdana", sans-serif; text-transform: uppercase;
 }
 
 #footer li {line-height: 1; display: inline-block; padding: 0.5em;
 }
 
-#footer li a {position: bottom; display: inline-block; padding: 1.2em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+#footer li a {display: inline-block; padding: 1.2em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
 #navigation.accessibility {position: absolute; left: -10000px;
