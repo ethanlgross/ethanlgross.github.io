@@ -129,16 +129,16 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; padding: 0;top: 0; left: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
+#navigation {position: fixed; width: 100%; top-padding: .5em; bottom-padding: 1.2em; left: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
-.navigation {line-height: 1; display: block; padding: 0; background-color: #a65d03; z-index: 100; font-size: 1em; text-transform: uppercase; color: #ffffff;
+.navigation {line-height: 1; display: block; top-padding: 0.5; background-color: #a65d03; z-index: 100; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
 .navigation li {line-height: 1; display: inline-block; padding: 0.5em;
 }
 
-.navigation li a {display: inline-block; padding: 1.2em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+.navigation li a {display: inline-block; padding: 1em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
 .byline {font-size: 0.75em; line-height: 1em; padding-top:0; color: #a65d03;
