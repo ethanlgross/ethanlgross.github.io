@@ -151,22 +151,17 @@ picture img {width: 100%;
 #home-content {position: relative; width: 80%;
 }
 
-.navigation {line-height: 1; padding: 0; display: block;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	text-decoration: none;
-	background-color: white;
-	color: var(--color-important);
+.navigation {line-height: 1; padding: 0;
 }
 
 .navigation li {
 	line-height: 1;
-	display: block;
+	display: inline-block;
 	padding: 0;
 	}
 
 .navigation li a {
-	display: block;
+	display: inline-block;
 	padding: 1.2em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
