@@ -151,7 +151,12 @@ picture img {width: 100%;
 #home-content {position: relative; width: 80%;
 }
 
-.navigation {line-height: 1; padding: 0;
+.navigation {line-height: 1; padding: 0; display: flex;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-decoration: none;
+	background-color: white;
+	color: var(--color-important;
 }
 
 .navigation li {
@@ -171,15 +176,15 @@ picture img {width: 100%;
 	}
 
 .byline {
-    font-size: 0.75em;
-    line-height: 1em;
-    padding-top:0;
+    font-size: 0.75em; line-height: 1em; padding-top:0; color: var(--color-important);
   }
+
 li.firstli {
 	color: var(--color-important);
 	padding-bottom: 0;
 	font-weight: bold;
 	}
+
 .pullquote {
 	float:right;
 	margin: 0.917em;
