@@ -91,7 +91,7 @@ header a:visited {color: var(--color-important);
 header {padding-top: 3.5em;
 }
 
-details {background-color: var(--color-medium); color: var(--color-light); margin-top: 0.5em; margin-left: 1em; margin-right: 1em; margin-bottom: 1.2em; text-indent: 1.2em;
+details {background-color: var(--color-light); color: var(--color-dark); margin-top: 0.5em; margin-left: 1em; margin-right: 1em; margin-bottom: 1.2em; text-indent: 1.2em;
 }
 
 a:link {color: var(--color-link);
