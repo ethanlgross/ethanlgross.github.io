@@ -160,12 +160,12 @@ picture img {width: 100%;
 	padding: 0;
 	top: 0;
 	left: 0;
-	background-color: gray;
+	background-color: var(--color-important);
 	z-index: 100;
 	font-family: "Georgia", serif;
 	font-size: 1.25em;
 	text-transform: uppercase;
-	color: white)
+	color: var(--color-light);
 }
 #footer {
 	font-size: 0.5em;
