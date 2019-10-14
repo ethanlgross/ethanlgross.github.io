@@ -145,9 +145,6 @@ picture img {width: 100%;
 #content img {width: 75%
 }
 
-#footer {color: var(--color-important); font-size: 0.5em; line-height: 1em;
-}
-
 #page {padding-left: 5.5%; padding-right: 5.5%; margin: 0 auto; background-color: var(--color-light); color: var(--color-dark);
 }
 
@@ -237,6 +234,9 @@ picture img {width: 100%;
 }
 
 #content img {width: 75%
+}
+
+#footer {color: var(--color-important); font-size: 0.5em; line-height: 1em;
 }
 
 /* End IDs and Classes */
