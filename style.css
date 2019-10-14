@@ -52,7 +52,7 @@ table {
 
 
 /* Begin CSS */
-html {background-color: gray; font-size: 1.2em; line-height: 1.2em; text-rendering: optimizeLegibility; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: "Arial", sans-serif;
+html {background-color: --color-light: #ffffff; font-size: 1.2em; line-height: 1.2em; text-rendering: optimizeLegibility; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: "Arial", sans-serif;
 }
 
 root {--color-dark: #333333; --color-medium: #6e6e6e; --color-light: #ffffff; --color-important: #a65d03; --color-link: #c7740e;
