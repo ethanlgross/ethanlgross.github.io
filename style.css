@@ -139,7 +139,7 @@ picture img {width: 100%;
 #content img {width: 75%
 }
 
-#footer {background: gray;
+#footer {background: black;
 }
 
 #page {
@@ -150,17 +150,20 @@ picture img {width: 100%;
   color: var(--color-dark);
 }
 #header {
-	text-transform: lowercase;
+	text-transform: uppercase;
   color: var(--color-important)
 	}
+
 #navigation {
 	position: fixed;
 	width: 100%;
 	padding: 0;
 	top: 0;
 	left: 0;
-	background-color: var(--color-dark);
+	background-color: black;
 	z-index: 100;
+	font-family: "Georgia", serif;
+	font-size: 1.25em;
 }
 #footer {
 	font-size: 0.5em;
