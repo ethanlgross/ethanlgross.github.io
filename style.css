@@ -191,8 +191,8 @@ picture img {width: 100%;
 	padding-top: 0.722em;
 	padding-bottom: 0.722em;
 	text-decoration: none;
-	background-color: var(--color-dark);
-	color: var(--color-light);
+	background-color: var(--color-light);
+	color: var(--color-dark);
 	}
 .byline {
     font-size: 0.5em;
@@ -227,7 +227,7 @@ aside {
 	padding: 0.917em;
 	}
 
-  #navigation .accessibility {
+  #navigation.accessibility {
     position: absolute;
     left: -10000px;
   }
@@ -265,7 +265,9 @@ picture img {width: 100%;
 #footer {color: black;
 	text-transform: uppercase;
 }
+/* End IDs and Classes */
 
+/* Begin Accessibility CSS */
 @media screen and (min-width: 585px) {
 #content {
 	position:relative;
@@ -293,9 +295,9 @@ h3 {
 	}
 .byline {
     font-size: 0.722em;
-
-  }
 }
+	}
+
 @media screen and (min-width: 1170px) {
  #page {
 	max-width: 1000px;
@@ -307,50 +309,4 @@ h3 {
 
     #navigation {padding-left: 70px; font-size: 1.5em;}
 }
-
-
-/* ==== Special Navigation and CSS for Pre-tenure portfolio */
-.portfolionav {
-	line-height: 1;
-	padding: 0;
-}
-.portfolionav li {
-	line-height: 1;
-  font-size: 0.8em;
-	display: inline-block;
-	padding: 0;
-	}
-.portfolionav li a {
-	display: block;
-  border-radius: .5em .5em 0 0;
-	padding: 1.222em;
-	padding-top: 0.722em;
-	padding-bottom: 0.722em;
-  margin-bottom: 0;
-	text-decoration: none;
-	background-color: var(--color-important);
-	color: var(--color-light);
-}
-hr{
-  border-style: solid;
-  border-width: 10px;
-  color: #04a678;
-  margin: 20px 0px;
-}
-
-blockquote.portnote {
-  border-top: solid 10px #04a678;
-	float:right;
-	padding-left: 1.777em;
-	padding-top: 0.917em;
-	padding-right: 0.917em;
-	padding-bottom: 0.917em;
-	border-radius: 0 0 0.25em 0.25em;
-	background-color: var(--color-medium);
-	color: var(--color-light);
-	font-family: 'Roboto Slab', serif;
-	text-align: left;
-	font-size: 0.8em;
-  margin-top: 0;
-  margin-bottom: 1.777em;
-}
+/* End Accessibility CSS */
