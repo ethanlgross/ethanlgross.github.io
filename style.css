@@ -126,19 +126,19 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
+#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
-.navigation {line-height: 1; display: block; background-color: #a65d03; z-index: 100; font-size: 1em; text-transform: uppercase; color: #ffffff;
+.navigation {line-height: 1; padding: 0;
 }
 
-.navigation li {line-height: 1; display: inline-block; padding: 0.5em;
+.navigation li {line-height: 1; display: inline-block; padding: 0;
 }
 
-.navigation li a {display: inline-block; padding: 0.5em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+.navigation li a {display: block; padding: 1.2em; padding-top: 0.7em; padding-bottom: 0.7em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
-.byline {font-size: 0.5em; line-height: 1em; padding-top:0.5em; color: #a65d03;
+.byline {font-size: 0.75em; line-height: 1em; padding-top:0; color: #a65d03;
 }
 
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
@@ -147,13 +147,13 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 #content img {width: 75%;
 }
 
-#footer {color: #a65d03; display: block; font-size: 0.5em; line-height: 0.5em; width: 100%; position: fixed; padding-top: .25em; background-color: #333333; z-index: 100; font-family: "Verdana", sans-serif; text-transform: uppercase;
+#footer {position: fixed; display: block; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase;
 }
 
-#footer li {line-height: 1; display: inline-block; padding: 0.5em;
+#footer li {line-height: 1; display: inline-block; padding: 0;
 }
 
-#footer li a {display: inline-block; padding: 0.5em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+#footer li a {display: block; padding: 1em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
 #navigation.accessibility {position: absolute; left: -10000px;
@@ -161,45 +161,39 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 /* End IDs and Classes */
 
 /* Begin Accessibility CSS */
+
 @media screen and (min-width: 585px) {
-#content {
-	position:relative;
-	width: 61.28709056%;
-	float: left;
-	}
-.sidebar {
-	width: 34.47398844%;
-	margin-left: 65.52601156%;
-	padding-bottom: 1.777em;
-	}
-#footer {
-	clear: both;
-	}
-
-
-h1 {
-	font-size: 2.369em;
-	}
-h2 {
-	font-size: 1.777em;
-	}
-h3 {
-	font-size: 1.333em;
-	}
-.byline {
-    font-size: 0.722em;
+#content {position:relative; width: 61.28709056%; float: left;
 }
-	}
-
-@media screen and (min-width: 1170px) {
- #page {
-	max-width: 1000px;
-	margin-left: 70px;
-	padding-left: 70px;
-	}
-
-	h1 {font-size:3em;}
-
-    #navigation {padding-left: 70px; font-size: 1.5em;}
+	
+.sidebar {width: 34.47398844%; margin-left: 65.52601156%; padding-bottom: 1.777em;
 }
+	
+#footer {clear: both;
+}
+
+h1 {font-size: 2.369em;
+}
+	
+h2 {font-size: 1.777em;
+}
+	
+h3 {font-size: 1.333em;
+}
+	
+.byline {font-size: 0.722em;
+}
+}
+
+@media screen and (min-width: 1170px) {#page
+{max-width: 1000px; margin-left: 70px; padding-left: 70px;
+}
+
+h1 {font-size:3em;
+}
+
+#navigation {padding-left: 70px; font-size: 1.5em;
+}
+}
+
 /* End Accessibility CSS */
