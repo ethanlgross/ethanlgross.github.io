@@ -79,6 +79,12 @@ h2 {font-size: 1.5em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 0.
 h3, h4, h5, h6 {font-size: 1.25em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 0.75em; font-weight: normal; color: #a65d03;
 }
 
+header a {color: black; text-decoration: none;
+}
+
+header a:visited {color: black;
+}
+
 a:link {color: #c7740e;
 }
 
@@ -138,7 +144,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 }
 
-div.title {z index: 100; padding-top: 4.25em; font-weight: bold; color: black; text-transform: uppercase;
+div.title {z index: 100; padding-top: 4.5em; padding-bottom: 0.5em; font-weight: bold; color: black; text-transform: uppercase;
 }
 
 #footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold;
