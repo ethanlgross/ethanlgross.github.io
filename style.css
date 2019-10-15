@@ -123,7 +123,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px solid black;
+#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px bottom black;
 }
 
 .navigation {line-height: 1; padding: 0;
@@ -147,7 +147,7 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 div.title {z index: 100; padding-top: 4.5em; padding-bottom: 0.5em; font-weight: bold; color: black; text-transform: uppercase;
 }
 
-#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold;
+#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold; border: 2px top black;
 }
 
 #footer li {line-height: 1; display: inline-block; padding: 0;
