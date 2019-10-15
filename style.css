@@ -126,7 +126,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
+#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff;
 }
 
 .navigation {line-height: 1; padding: 0;
@@ -135,7 +135,10 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 .navigation li {line-height: 1; display: inline-block; padding: 0;
 }
 
-.navigation li a {display: block; padding: 1.2em; padding-top: 0.7em; padding-bottom: 0.7em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+.navigation li a {display: block; float: left; padding: 1.2em; padding-top: 0.7em; padding-bottom: 0.7em; text-align: center; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+}
+
+.navigation li a:hover {background-color: black; color: white;
 }
 
 .byline {font-size: 0.75em; line-height: 1em; padding-top:0; color: #a65d03;
@@ -147,7 +150,7 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 #content img {width: 75%;
 }
 
-#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase;
+#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold;
 }
 
 #footer li {line-height: 1; display: inline-block; padding: 0;
@@ -159,6 +162,21 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 #navigation.accessibility {position: absolute; left: -10000px;
 }
 /* End IDs and Classes */
+
+/* Javascript and Misc */
+
+.script {var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+	
+/* Javascript and Misc */
 
 /* Begin Accessibility CSS */
 
