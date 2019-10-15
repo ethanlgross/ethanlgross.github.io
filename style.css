@@ -156,6 +156,9 @@ div.title {z index: 100; padding-top: 4.5em; padding-bottom: 0.5em; font-weight:
 #footer li a {display: block; padding: 1em; padding-top: 0.5em; padding-bottom: 0.5em; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
+#footer li a:hover {background-color: black; color: white;
+}
+
 #navigation.accessibility {position: absolute; left: -10000px;
 }
 /* End IDs and Classes */
