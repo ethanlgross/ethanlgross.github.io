@@ -7,10 +7,25 @@
 	  <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap" rel="stylesheet">
 	  <!-- end link to main stylesheet -->
     <meta charset="utf-8">
+		
+/* Begin Javascript and Misc */
+<script>
+{var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navigation").style.top = "0";
+  } else {
+    document.getElementById("navigation").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+		</script>
+/* End Javascript and Misc */
+
   </head>
 
   <body class="container" id="page">
-	  <script>
 		<header id="header">
 			<div class="title">
 			<h1><a href="https://ethanlgross.github.io/" rel="index.html">Ethan L. Gross</a></h1>
@@ -47,6 +62,5 @@
 					<li><a href="https://github.com/ethanlgross">github.com/ethanlgross</a></li>
 				</ul>
 			</footer>
-		  </script>
 			</body>
 		</html>
