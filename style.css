@@ -79,12 +79,6 @@ h2 {font-size: 1.5em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 0.
 h3, h4, h5, h6 {font-size: 1.25em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 0.75em; font-weight: normal; color: #a65d03;
 }
 
-header a {color: #a65d03; text-decoration: none;
-}
-
-header a:visited {color: #a65d03;
-}
-
 a:link {color: #c7740e;
 }
 
