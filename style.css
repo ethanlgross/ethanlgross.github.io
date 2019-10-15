@@ -70,7 +70,7 @@ ol {list-style-type: decimal;
 li {padding-bottom: 0.5em;
 }
 
-h1 {font-size: 1.75em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 1em; color: #333333;
+h1 {font-size: 1.75em; line-height: 1.2em; padding-top: 1em; padding-bottom: 0.25em; color: #333333;
 }
 
 h2 {font-size: 1.5em; line-height: 1.2em; padding-top: 0.5em; padding-bottom: 0.75em; font-weight: bold; color: #6e6e6e;
@@ -123,7 +123,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px bottom black;
+#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px solid #a65d03; border-bottom-color: black;
 }
 
 .navigation {line-height: 1; padding: 0;
@@ -138,7 +138,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 .navigation li a:hover {background-color: black; color: white;
 }
 
-.byline {font-size: 1em; line-height: 1.2em; padding-top:0; color: #a65d03; font-weight: bold;
+p.byline {font-size: 1em; line-height: 1.2em; padding-top:0; color: #a65d03; font-weight: bold;
 }
 
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
@@ -147,7 +147,7 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 div.title {z index: 100; padding-top: 4.5em; padding-bottom: 0.5em; font-weight: bold; color: black; text-transform: uppercase;
 }
 
-#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold; border: 2px top black;
+#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase; font-weight: bold; border: 2px solid #333333; border-top-color: black;
 }
 
 #footer li {line-height: 1; display: inline-block; padding: 0;
