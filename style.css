@@ -172,9 +172,9 @@ div.title {z index: 100; padding-top: 4.25em; font-weight: bold; color: black; t
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navigation").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navigation").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
 }
