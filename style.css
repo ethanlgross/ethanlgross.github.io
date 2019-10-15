@@ -147,7 +147,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 }
 
-div.title {z index: 100; padding-top: 4.0em;
+div.title {z index: 100; padding-top: 4.25em; font-weight: bold; color: black; text-transform: uppercase;
 }
 
 #content img {width: 75%;
