@@ -114,9 +114,6 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 
 /* Begin IDs and Classes */
 
-#header {color: #333333;
-}
-
 #content img {width: 75%;
 }
 
@@ -141,7 +138,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 .navigation li a:hover {background-color: black; color: white;
 }
 
-.byline {font-size: 0.75em; line-height: 1em; padding-top:0; color: #a65d03;
+.byline {font-size: 1em; line-height: 1.2em; padding-top:0; color: #6e6e6e; font-weight: bold;
 }
 
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
