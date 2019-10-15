@@ -160,21 +160,6 @@ div.title {z index: 100; padding-top: 4.25em; font-weight: bold; color: black; t
 }
 /* End IDs and Classes */
 
-/* Javascript and Misc */
-
-script {var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navigation").style.top = "0";
-  } else {
-    document.getElementById("navigation").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-	
-/* Javascript and Misc */
-
 /* Begin Accessibility CSS */
 
 @media screen and (min-width: 585px) {
