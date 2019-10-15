@@ -147,7 +147,7 @@ li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
 #content img {width: 75%;
 }
 
-#footer {position: fixed; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase;
+#footer {position: fixed; width: 100%; padding: 0; bottom: 0; left: 0; font-size: 0.5em; line-height: 1em; background-color: #333333; color: #a65d03; font-family: "Verdana", sans-serif; text-transform: uppercase;
 }
 
 #footer li {line-height: 1; display: inline-block; padding: 0;
