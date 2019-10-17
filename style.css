@@ -123,7 +123,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: fixed; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px solid #a65d03; border-bottom-color: black;
+#navigation {position: absolute; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px solid #a65d03; border-bottom-color: black;
 }
 
 .navigation {line-height: 1; padding: 0;
