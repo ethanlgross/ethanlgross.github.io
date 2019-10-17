@@ -126,7 +126,7 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 #home-content {position: relative; width: 80%;
 }
 
-#navigation {position: absolute; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 1em; text-transform: uppercase; color: #ffffff; border: 2px solid #a65d03; border-bottom-color: black;
+#navigation {position: absolute; width: 100%; padding: 0; top: 0; left: 0; transition: top 0.3s; background-color: #a65d03; z-index: 100; font-family: "Georgia", serif; font-size: 0.5em; text-transform: uppercase; color: #ffffff; border: 2px solid #a65d03; border-bottom-color: black;
 }
 
 .navigation {line-height: 1; padding: 0;
@@ -135,13 +135,13 @@ blockquote {text-indent: 1.2em; font-style: italic; color: gray; border-left: .5
 .navigation li {line-height: 1; display: inline-block; padding: 0;
 }
 
-.navigation li a {display: block; float: left; padding: 1.2em; padding-top: 0.7em; padding-bottom: 0.7em; text-align: center; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
+.navigation li a {display: block; float: left; padding: 0.5em; padding-top: 0.5em; padding-bottom: 0.5em; text-align: center; text-decoration: none; border: 2px solid black; background-color: #ffffff; color: #a65d03;
 }
 
 .navigation li a:hover {background-color: black; color: white;
 }
 
-p.byline {font-size: 1em; line-height: 1.2em; padding-top:0; color: #a65d03; font-weight: bold;
+p.byline {font-size: 1em; line-height: 1em; padding-top:0; color: #a65d03; font-weight: bold;
 }
 
 li.firstli {color: #a65d03; padding-bottom: 0; font-weight: bold;
