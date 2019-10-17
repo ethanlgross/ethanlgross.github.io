@@ -269,6 +269,9 @@ div.title {
 
 #footer {
 	margin-left: 0;
+	padding: 0;
+	bottom: 0;
+	left: 0;
 	width: 100%;
 	font-size: 0.5em;
 	line-height: 1em;
