@@ -200,6 +200,7 @@ blockquote {
 
 #navigation {
 	position: absolute;
+	display: block;
 	width: 100%;
 	padding: 0;
 	top: 0;
