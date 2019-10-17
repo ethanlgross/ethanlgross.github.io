@@ -270,11 +270,6 @@ div.title {
 #footer {
 	margin-left: auto;
 	vertical-align: middle;
-	position: absolute;
-	width: 100%;
-	padding: 0;
-	bottom: 0;
-	left: 0;
 	font-size: 0.5em;
 	line-height: 1em;
 	background-color: #333333;
