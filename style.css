@@ -205,7 +205,6 @@ blockquote {
 	padding: 0;
 	top: 0;
 	left: 0;
-	transition: top 0.3s;
 	background-color: #a65d03;
 	z-index: 100;
 	font-family: "Georgia", serif;
@@ -269,9 +268,8 @@ div.title {
 }
 
 #footer {
-	margin-left: auto;
+	margin-left: 0;
 	width: 100%;
-	vertical-align: left;
 	font-size: 0.5em;
 	line-height: 1em;
 	background-color: #333333;
