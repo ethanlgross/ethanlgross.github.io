@@ -267,6 +267,9 @@ div.title {
 }
 
 #footer {
+	margin: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 0;
 	margin-left: 0;
 	padding: 0;
 	bottom: 0;
