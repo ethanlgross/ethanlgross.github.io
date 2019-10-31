@@ -238,6 +238,7 @@ blockquote {
 #header {
 	padding-left: 5.5%;
 	padding-right: 5.5%;
+	text-shadow: 1px grey;
 }
 
 #home-content {
