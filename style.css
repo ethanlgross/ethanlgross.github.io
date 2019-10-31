@@ -225,11 +225,14 @@ blockquote {
 }
 
 #page {
-	padding-left: 5.5%;
-	padding-right: 5.5%;
 	margin: 0 auto;
 	background-color: #fcdea9;
 	color: #333333;
+}
+
+#content {
+	padding-left: 5.5%;
+	padding-right: 5.5%;
 }
 
 #home-content {
@@ -308,12 +311,9 @@ div.title {
 }
 
 #footer {
-	margin: 1em;
-	padding-bottom: 0.5em;
-	padding-left: 0;
-	margin-left: 0;
+	margin: 1em 1em 1em 1em;
 	padding: 0;
-	bottom: 0;
+	bottom: 0.75em;
 	left: 0;
 	width: 100%;
 	font-size: 0.5em;
