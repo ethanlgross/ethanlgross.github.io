@@ -288,8 +288,9 @@ p.byline {
 	font-size: 1em;
 	line-height: 1em;
 	padding-top:0;
-	color: #a65d03;
+	color: #000080;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 li.firstli {
