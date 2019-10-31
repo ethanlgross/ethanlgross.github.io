@@ -235,6 +235,11 @@ blockquote {
 	padding-right: 5.5%;
 }
 
+#header {
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+}
+
 #home-content {
 	position: relative;
 }
